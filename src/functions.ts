@@ -17,3 +17,5 @@ function printPosition( position:{lat: number, long?: number}){
     console.log(`Lat is ${position.lat} long is ${position.long}`)
 }
 printPosition({lat:3});
+
+
