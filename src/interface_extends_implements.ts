@@ -30,4 +30,7 @@ class Zoo implements Animal{
     getCats(){       // no se especifica el void xq lo supone   
 
     }
+    constructor(name: 'zoo'){
+        this.name = 'zoo'       //inicializando y asignado un valor 
+    }
 }

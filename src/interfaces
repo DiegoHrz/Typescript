@@ -24,4 +24,3 @@ const book: Book = {
 
 
 
-//Clases -Existen al compilar y durante ejecucion. -podemos inicializar propiedades e implementar propiedades -crea instancias en dicha clase

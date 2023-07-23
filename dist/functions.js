@@ -4,8 +4,8 @@
 function greet(name = 'User') {
     console.log(`hello, ${name.toUpperCase()} !!`);
 }
-greet('Domi');
-greet();
+greet('Domi'); // se sobreescribe domi en vez de user
+greet(); // usa user por defecto
 //ej2 funcion con inferencia
 function getNumber() {
     return Math.floor(Math.random() * 100);
